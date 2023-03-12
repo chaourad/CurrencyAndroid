@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFACE2"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Currency Converter"
+        android:textColor="#FFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/test1"
+        android:layout_width="373dp"
+        android:layout_height="47dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="30dp"
+        android:text="Entre  Amount"
+        />
+
+    <EditText
+        android:id="@+id/numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0 EUR"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultat2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0 USD"
+        android:textSize="30dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_margin="50dp"
+        android:text="Get Exchange Rate "
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
